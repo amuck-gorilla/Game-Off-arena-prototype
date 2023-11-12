@@ -16,8 +16,24 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1024
-window/size/viewport_height=720
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="viewport"
+
+[filesystem]
+
+import/blender/enabled=false
+
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="environment"
+2d_physics/layer_3="hazards"
+
+[physics]
+
+2d/default_gravity=0.0
+2d/default_gravity_vector=Vector2(0, 0)
 
 [rendering]
 
